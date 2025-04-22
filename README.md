@@ -3,7 +3,7 @@
 
 
 <br>
-<p align="center"> <img src="https://github.com/shariarmdimtiaz/adv_phase_holo_net/imgs/proposed-model.jpg" width="80%"> </p>
+<p align="center"> <img src="https://github.com/shariarmdimtiaz/adv_phase_holo_net/blob/main/imgs/proposed-model.jpg" width="80%"> </p>
 
 ## Preparation:
 
@@ -40,9 +40,9 @@
 
 ```
 
-## Test LFs:
+## Train & Test:
 
-- Place the input LFs into `./DIV2K` (see the examples).
+- Place the input files into `./DIV2K` (see the examples).
 - Run `train.py` for the train the model using DIV2K dataset.
 - Run `test.py` to test the model and generate phase only hologram (CGH).
 - The result files (i.e., `scene_name.png`) will be saved to `./result/`.
